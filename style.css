@@ -2,6 +2,19 @@
     position: fixed;
     z-index: -1;
 }
+.content {
+    z-index: 1;
+    background-color: black;
+    opacity: .75;
+    color: white;
+}
+footer {
+    flex-shrink: 0;
+    background-color: black;
+    opacity: .75;
+    color: white;
+    
+}
 @media ( min-aspect-ratio: 16/9) {
     #myVideo {
         width: 100%;
@@ -14,8 +27,11 @@
         height: 100%
     }
 }
-.content {
-    z-index: 1;
-    background-color: gray;
+
+.resultsInfo {
+    background-color: black;
 }
 
+#images {
+    background-image: url("teaching.JPG");
+}
