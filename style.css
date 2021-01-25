@@ -1,8 +1,21 @@
-.content {
+#myVideo {
     position: fixed;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px;
-  }
+    z-index: -1;
+}
+@media ( min-aspect-ratio: 16/9) {
+    #myVideo {
+        width: 100%;
+        height: auto ;
+            }
+}
+@media ( max-aspect-ratio: 16/9) {
+    #myVideo {
+        width: auto;
+        height: 100%
+    }
+}
+.content {
+    z-index: 1;
+    background-color: gray;
+}
+
