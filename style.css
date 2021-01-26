@@ -36,7 +36,13 @@ footer {
 float: left;
 }
 h4 {
-    text-align: center;
+    align-content: center;
     color: orangered;
 
+}
+h1 {
+    text-align: center;
+}
+#forcast {
+    align-content: center;
 }
