@@ -44,6 +44,11 @@ h4 {
 h1 {
     text-align: center;
 }
-#forcast {
+#forcast.row {
     align-content: center;
+    text-align: center;
+}
+p {
+    align-content: center;
+    text-align: center;
 }
